@@ -1,0 +1,13 @@
+.ーーー【２－１０.文字揃えと行の高さ】ーーーーーーー {border:none;}
+.ーー文字揃えーーーーーーーーーーーーーーー {border:none;}
+
+.p-1 {
+    text-align: center;
+}
+
+
+.ーー行の高さーーーーーーーーーーーーーーー {border:none;}
+
+.p-2 {
+    line-height: 24px;
+}

@@ -1,0 +1,37 @@
+.ーーー【２－７.要素の表示形式】ーーーーーーーーーー {border:none;}
+.ーー要素の表示形式ーーーーーーーーーーーー {border:none;}
+
+.p-1 {
+    color:red;
+}
+
+
+.ーーブロック要素ーーーーーーーーーーーーー {border:none;}
+
+.div-2 {
+    background-color: red
+}
+
+
+.ーーインライン要素ーーーーーーーーーーーー {border:none;}
+
+.span-3 {
+    background-color: red;
+}
+
+
+.ーーdisplayプロパティーーーーーーーーーー {border:none;}
+
+.example1 {
+    display: inline;
+}
+
+.example2 {
+    display: block;
+}
+
+.example3,
+.example4 {
+    display: inline-block;
+}
+  

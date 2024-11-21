@@ -1,0 +1,144 @@
+.ーーー【２－１９.Float】ーーーーーーーーーーーーー {border:none;}
+.ーーFloatーーーーーーーーーーーーーーーー {border:none;}
+
+.item1-1 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+}
+.item2-1 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+}
+.item3-1 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+}
+
+
+.ーー左に回り込みーーーーーーーーーーーーー {border:none;}
+
+.item1-2 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item2-2 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item3-2 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+
+.ーー右に回り込みーーーーーーーーーーーーー {border:none;}
+
+.item1-3 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.item2-3 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.item3-3 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+
+.ーーClearーーーーーーーーーーーーーーーー {border:none;}
+
+.item1-4 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item2-4 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item3-4 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+}
+
+
+.ーー回り込みを解除ーーーーーーーーーーーー {border:none;}
+
+.item1-5 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item2-5 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item3-5 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+    clear: both;
+}
+
+
+.ーーfloatを使用する場面ーーーーーーーーー {border:none;}
+
+.float-6 {
+    max-width: 760px;
+    width: 100%;
+    margin: 60px auto;
+}
+.float__img-6 {
+    width: 400px;
+    float: left;
+}
+img {
+    width: 100%;
+}
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+.float-7 {
+    max-width: 760px;
+    width: 100%;
+    margin: 60px auto;
+}
+.float__ttl-7 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.float__img-7 {
+    width: 400px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+img {
+    width: 100%;
+}
+

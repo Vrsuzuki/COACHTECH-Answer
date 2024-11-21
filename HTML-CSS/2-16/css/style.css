@@ -1,0 +1,104 @@
+.ーーー【２ー１６.練習問題】ーーーーーーーーーーーー {border:none;}
+.ーー練習問題１ーーーーーーーーーーーーーー {border: none;}
+
+.practice__btn {
+    width: 200px;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff5800, #8b00be);
+    text-align: center;
+    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+    margin: 100px auto 0;
+    display: block;
+}
+
+
+.ーー練習問題２ーーーーーーーーーーーーーー {border: none;}
+
+.body {
+    width: 760px;
+    margin: 100px auto;
+}
+
+.card-2 {
+    box-shadow: 0 0 6px #eeeeee;
+    display: flex;
+}
+
+.card__img-2 {
+    width: 40%;
+}
+
+.card__img-2 .img-2 {
+    width: 100%;
+    vertical-align: top;
+}
+
+.card__content-2 {
+    padding: 15px;
+}
+
+.card__content-ttl-2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.card__content-tag-2 {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.card__content-tag--red-2 {
+    color: red;
+    margin-left: 40px;
+}
+
+
+.ーー練習問題３ーーーーーーーーーーーーーー {border: none;}
+
+.card-3 {
+    width: 360px;
+    margin: 100px auto 0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__img-3 .img-3 {
+    width: 100%;
+}
+
+.card__content-3 {
+    padding: 15px 25px;
+}
+
+.card__content-ttl-3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.card__content-cat-3 {
+    padding: 5px 10px;
+    background: #008888;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+.card__content-tag-3 {
+    font-size: 14px;
+    text-align: right;
+}
+
+.card__content-tag-item-3 {
+    display: inline-block;
+    color: #008888;
+}
+
+.card__content-tag-item--last-3 {
+    display: inline-block;
+    margin-left: 20px;
+    color: #888888;
+}

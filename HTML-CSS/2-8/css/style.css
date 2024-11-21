@@ -1,0 +1,48 @@
+.ーーー【２－８.文字装飾】ーーーーーーーーーーーーー {border:none;}
+.ーーカラーネームーーーーーーーーーーーーー {border:none;}
+
+.text-1{
+    color:red;
+}
+
+
+.ーー16進数カラーコードーーーーーーーーーー {border:none;}
+
+.text-2 {
+    color:#ff0000;
+}
+
+.ーーRGB・RGBAカラーモデルーーーーーーーー {border:none;}
+
+.text-3 {
+    color: rgb(255,0,0)
+}
+
+
+.ーー半透明ーーーーーーーーーーーーーーーー {border:none;}
+
+.text-4 {
+    color:rgba(255,0,0,0.5);
+}
+
+
+.ーー文字の太さーーーーーーーーーーーーーー {border:none;}
+
+.text-5 {
+    font-weight: bold;
+}
+
+
+.ーー文字を斜めにするーーーーーーーーーーー {border:none;}
+
+.text-6 {
+    font-style: italic;
+}
+
+
+.ーー文字に線をつけるーーーーーーーーーーー {border:none;}
+
+.text-7 {
+    text-decoration: underline;
+}
+

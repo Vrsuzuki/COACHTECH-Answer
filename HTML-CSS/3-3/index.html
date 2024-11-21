@@ -1,0 +1,106 @@
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3-3 レスポンシブデザインパターン</title>
+  <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h1 style="color:darkcyan; font-size: 35px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">ーー【３－３ レスポンシブデザインパターン】ーーーーーー</h1><h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【縦横比を維持して拡大縮小】ーーーーーーーーーーーーー
+  </h2>
+  <div class="item-1">
+    <p class="item-content-1">テキスト</p>
+  </div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【縦横比を維持せず拡大縮小】ーーーーーーーーーーーーー
+  </h2>
+  <img class="item-2" src="img/red.jpg" alt="">
+
+
+  
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【メディアクエリで拡大縮小】ーーーーーーーーーーーーー
+  </h2>
+  <p class="item-3">要素</p>
+
+
+  
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【別の要素を表示するパターン】ーーーーーーーーーーーー
+  </h2>
+  <p class="item1-4">要素1</p>
+  <p class="item2-4">要素2</p>
+
+
+  
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【レイアウトで折り返すパターン】ーーーーーーーーーーー
+  </h2>
+  <div class="parent">
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+  </div>
+
+
+  
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【問題】ーーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div class="flex__item wrap">
+    <div class="practice__card">
+      <div class="card__img">
+        <img src="img/card.jpg" alt="" />
+      </div>
+      <div class="card__content">
+        <div class="card__cat">カテゴリー</div>
+        <h2 class="card__ttl">
+          今日の朝ごはんは卵と肉を合わせたバランスの良いメニューです。
+        </h2>
+        <div class="tag">
+          <p class="card__tag">#朝ごはん</p>
+          <p class="card__date">2021/01/01</p>
+        </div>
+      </div>
+    </div>
+    <div class="practice__card">
+      <div class="card__img">
+        <img src="img/card.jpg" alt="" />
+      </div>
+      <div class="card__content">
+        <div class="card__cat">カテゴリー</div>
+        <h2 class="card__ttl">
+          今日の朝ごはんは卵と肉を合わせたバランスの良いメニューです。
+        </h2>
+        <div class="tag">
+          <p class="card__tag">#朝ごはん</p>
+          <p class="card__date">2021/01/01</p>
+        </div>
+      </div>
+    </div>
+    <div class="practice__card">
+      <div class="card__img">
+        <img src="img/card.jpg" alt="" />
+      </div>
+      <div class="card__content">
+        <div class="card__cat">カテゴリー</div>
+        <h2 class="card__ttl">
+          今日の朝ごはんは卵と肉を合わせたバランスの良いメニューです。
+        </h2>
+        <div class="tag">
+          <p class="card__tag">#朝ごはん</p>
+          <p class="card__date">2021/01/01</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

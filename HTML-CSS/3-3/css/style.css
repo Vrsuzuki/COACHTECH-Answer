@@ -1,0 +1,169 @@
+.ーーー【３－３.レスポンシブデザインパターン】ーーー {border:none;}
+.ーー縦横比を維持して拡大縮小ーーーーーーー {border:none;}
+
+.item-1 {
+    width: 100%;
+    position: relative;
+}
+
+.item-1::before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+}
+
+.item-content-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+}
+
+
+.ーー縦横比を維持せず拡大縮小ーーーーーーー {border:none;}
+
+.item-2 {
+    width: 100%;
+    height: auto;
+}
+
+
+.ーーメディアクエリで拡大縮小ーーーーーーー {border:none;}
+
+.item-3 {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .item-3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .item-3 {
+        font-size: 12px;
+    }
+}
+
+
+.ーー別の要素を表示するパターンーーーーーー {border:none;}
+
+.item2-4 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .item1-4 {
+        display: none;
+    }
+
+    .item2-4 {
+        display: block;
+    }
+}
+
+
+.ーーレイアウトで折り返すパターンーーーーー {border:none;}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.child {
+    width: 33%;
+    height: 200px;
+    background: #ff0000;
+}
+
+@media screen and (max-width: 768px) {
+    .child {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .child {
+        width: 100%;
+    }
+}
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+.flex__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.practice__card {
+    width: 100%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.practice__card:last-child {
+    margin-bottom: 0;
+}
+
+.card__img img {
+    width: 100%;
+}
+
+.card__content {
+    padding: 15px 25px;
+}
+
+.card__ttl {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.card__cat {
+    padding: 5px 10px;
+    background: #008888;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tag {
+    font-size: 14px;
+    text-align: right;
+}
+
+.card__tag {
+    display: inline-block;
+    color: #008888;
+}
+
+.card__date {
+    display: inline-block;
+    margin-left: 20px;
+    color: #888888;
+}
+
+@media screen and (min-width: 768px) {
+    .practice__card {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .practice__card {
+        width: 30%;
+        margin-bottom: 0;
+    }
+}

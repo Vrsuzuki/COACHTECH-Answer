@@ -1,0 +1,53 @@
+.ーーー【２－１３.余白】ーーーーーーーーーーーーーー {border:none;}
+.ーー外側の余白ーーーーーーーーーーーーーー {border:none;}
+
+.h1-1 {
+    background: #ff0000;
+    margin: 30px;
+}
+
+.p-1 {
+    background: #000000;
+    color: #fff;
+}
+
+
+.ーー内側の余白ーーーーーーーーーーーーーー {border:none;}
+
+.h1-2 {
+    background: #ff0000;
+    padding: 30px;
+}
+
+.p-2 {
+    background: #000000;
+    color: #fff;
+}
+
+
+.ーーbox-sizingーーーーーーーーーーーーーー {border:none;}
+
+.boxsizing {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 30px;
+    border: 20px solid blue;
+    margin: 100px auto 0;
+}
+.content-box {
+    box-sizing: content-box;
+}
+.border-box {
+    box-sizing: border-box;
+}
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+.box {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background: red;
+}

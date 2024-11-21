@@ -1,0 +1,105 @@
+.ーーー【３－５.レイアウト】ーーーーーーーーーーーー {border:none;}
+.ーーシングルカラムレイアウトーーーーーーー {border:none;}
+
+.header-1 {
+    background: #ff188a;
+    height: 70px;
+    color: #fff;
+}
+
+.main-1 {
+    background: #00adb9;
+    height: 600px;
+    color: #fff;
+}
+
+.footer-1 {
+    background: #f7ea00;
+    height: 70px;
+    color: #fff;
+}
+
+
+.ーーマルチカラムレイアウトーーーーーーーー {border:none;}
+
+.header-2 {
+    background: #ff188a;
+    height: 70px;
+    color: #fff;
+}
+
+.main-2 {
+    height: 600px;
+    display: flex;
+}
+
+.content-2 {
+    background: #00adb9;
+    height: 100%;
+    color: #fff;
+    width: 80%;
+}
+
+.sidebar-2 {
+    background: #e5c4f8;
+    height: 100%;
+    color: #fff;
+    width: 20%;
+}
+
+.footer-2 {
+    background: #f7ea00;
+    height: 70px;
+    color: #fff;
+}
+
+
+.ーーグリッドレイアウトーーーーーーーーーー {border:none;}
+
+.header-3 {
+    background: #ff188a;
+    height: 70px;
+    color: #fff;
+}
+
+.wrap-3 {
+    column-count: 3;
+    width: 90%;
+    margin: 0 auto
+}
+
+.item-3 {
+    break-inside: avoid;
+    text-align: center;
+}
+
+.item-3 .img-3 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer-3 {
+    background: #f7ea00;
+    height: 70px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+.ーーフルスクリーンレイアウトーーーーーーー {border:none;}
+
+.mv-4 {
+    position: relative;
+    background: url(../img/mv.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+    color: #fff;
+}

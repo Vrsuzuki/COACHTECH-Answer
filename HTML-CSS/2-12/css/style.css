@@ -1,0 +1,120 @@
+.ーーー【２－１２.横幅と高さ】ーーーーーーーーーーー {border:none;}
+.ーー横幅pxーーーーーーーーーーーーーーーー {border:none;}
+
+.div-1 {
+    background: #ff0000;
+    width: 300px;
+}
+
+
+.ーー横幅％ーーーーーーーーーーーーーーーー {border:none;}
+
+.parent-2 {
+    width: 1000px;
+    background-color: red;
+}
+  
+.child-2 {
+    width: 25%;
+    background-color: yellow;
+}
+
+
+.ーー横幅vwーーーーーーーーーーーーーーーー {border:none;}
+
+.parent-3 {
+    width: 50vw;
+    background-color: red;
+}
+
+
+.ーー高さpxーーーーーーーーーーーーーーーー {border:none;}
+
+.div-4 {
+    background: #ff0000;
+    height: 300px;
+}
+
+
+.ーー高さ％ーーーーーーーーーーーーーーーー {border:none;}
+
+.parent-5 {
+    background-color: red;
+    height: 200px;
+}
+  
+.child-5 {
+    display: inline-block;
+    height: 50%;
+    background-color: yellow;
+}
+
+
+.ーー高さvhーーーーーーーーーーーーーーーー {border:none;}
+
+.parent-6 {
+    height: 50vh;
+    background-color: red;
+}
+
+
+.ーー％とvwとvhの違いーーーーーーーーーーー {border:none;}
+
+.parrent-7 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+  
+.child-7 {
+    width: 30%;
+    height: 30%;
+    color: #fff;
+    background-color: blue;
+}
+  
+.viewport-7 {
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+}
+
+
+.ーー問題１ーーーーーーーーーーーーーーーー {border:none;}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img-8 {
+  width: 100%;
+  height: 100vh;
+}
+
+
+.ーー問題２ーーーーーーーーーーーーーーーーー {border:none;}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+.content-9 {
+    width: 500px;
+    height: 500px;
+}
+  
+.red-box-9 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+  
+.blue-box-9 {
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}

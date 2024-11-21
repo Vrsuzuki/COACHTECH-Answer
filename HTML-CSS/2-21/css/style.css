@@ -1,0 +1,62 @@
+.ーーー【２－２１.要素の変形】ーーーーーーーーーーー {border:none;}
+.ーー回転ーーーーーーーーーーーーーーーーー {border:none;}
+.item-1 {
+    background: #ff0000;
+    height: 100px;
+    width: 100px;
+    transform: rotate(30deg);
+}
+  
+
+.ーー半時計回りーーーーーーーーーーーーーー {border:none;}
+
+.item-2 {
+    background: #ff0000;
+    height: 100px;
+    width: 100px;
+    transform: rotate(-30deg);
+}
+
+
+.ーー移動ーーーーーーーーーーーーーーーーー {border:none;}
+
+.item-3 {
+    background: #ff0000;
+    height: 100px;
+    width: 100px;
+    transform: translate(30px,50px);
+}
+
+
+.ーー上下左右中央配置ーーーーーーーーーーー {border:none;}
+
+.parent {
+    position: relative;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+  .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.ーー補足ーーーーーーーーーーーーーーーーー {border:none;}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008888;
+    height: 600px;
+}
+  
+.flex__child {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}

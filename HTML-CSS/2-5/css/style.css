@@ -1,0 +1,159 @@
+.ーーー【２－５.セレクタ】ーーーーーーーーーーーーー {border:none;}
+.ーー要素セレクターーーーーーーーーーーーー {border:none;}
+
+p {
+    color: red;
+}
+
+
+.ーーidセレクタ（＃ＩＤ名）ーーーーーーーーー {border:none;}
+
+#sample {
+    color: red;
+}
+
+
+.ーーclassセレクタ（.クラス名）ーーーーーー {border:none;}
+
+.sample {
+    color: red;
+}
+
+
+.ーー全称セレクターーーーーーーーーーーーー {border:none;}
+
+* {
+    color: red;
+}
+
+
+.ーー子孫セレクターーーーーーーーーーーーー {border:none;}
+
+div span {
+    color: red;
+}
+
+
+.ーー子セレクターーーーーーーーーーーーーー {border:none;}
+
+div>span {
+    color: red;
+}
+
+
+.ーー隣接セレクターーーーーーーーーーーーー {border:none;}
+
+p+span {
+    color: red;
+}
+
+
+.ーー複数セレクターーーーーーーーーーーーー {border:none;}
+
+p,
+span {
+    color: red;
+}
+
+
+.ーー要素：first-childーーーーーーーーーー {border:none;}
+
+p:first-child {
+    color: red;
+}
+
+
+.ーー要素：first-of-typeーーーーーーーーー {border:none;}
+
+p:first-of-type {
+    color: red;
+}
+
+
+.ーー要素：last-childーーーーーーーーーーー {border:none;}
+
+p:last-child {
+    color: red;
+}
+
+
+.ーーlast-of-typeーーーーーーーーーーーー {border:none;}
+
+p:last-of-type {
+    color: red;
+}
+
+
+.ーー要素：nth-child（ｎ）ーーーーーーーー {border:none;}
+
+p:nth-child(3) {
+    color: red;
+}
+
+
+.ーー階層が同じ要素の中で3の倍数に適用：nth-child（３ｎ）ーー {border:none;}
+
+p:nth-child(3n) {
+    color: red;
+}
+
+
+.ーー階層が同じ要素の中で3の倍数-1に適用：nth-child（３ｎ－１）ーー {border:none;}
+
+p:nth-child(3n-1) {
+    color: red;
+}
+
+
+.ーー階層が同じ要素の中で3番目以降全てに適用：nth-child（ｎ＋３）ーー {border:none;}
+
+p:nth-child(n+3) {
+    color: red;
+}
+
+
+.ーー要素：nth-of-type（ｎ）ーーーーーーー {border:none;}
+
+p:nth-of-type(3) {
+    color: red;
+}
+
+
+.ーー指定要素の中で3の倍数に適用：nth-of-type（３ｎ）ーー {border:none;}
+
+p:nth-of-type(3n) {
+    color: red;
+}
+
+
+.ーー指定要素の中で3の倍数-1に適用：nth-of-type（３ｎ－１）ーー {border:none;}
+
+p:nth-of-type(3n-1) {
+    color: red;
+}
+
+
+.ーー指定要素の中で3番目以降全てに適用：nth-of-type（ｎ＋３）ーー {border:none;}
+
+p:nth-of-type(n+3) {
+    color: red;
+}
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+* {
+    line-height: 1;
+}
+
+.number__child {
+    padding-left: 40px;
+}
+
+.number__parent:nth-of-type(3n) {
+    color: red;
+}
+
+.number__child:nth-of-type(n + 2) {
+    color: blue;
+}

@@ -1,0 +1,120 @@
+.ーーー【２－１８.Position】ーーーーーーーーーーーー {border:none;}
+.ーー相対位置relativeーーーーーーーーーーー {border:none;}
+
+.relative-1 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.red-box-1 {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+
+.ーー絶対位置absoluteーーーーーーーーーーー {border:none;}
+
+.relative-2 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.absolute-2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.red-box-2 {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.blue-box-2 {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+
+.ーー初期値staticーーーーーーーーーーーーー {border:none;}
+
+.about-3 {
+    background-color: #ebebeb;
+    padding: 60px 0;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.about__img-3 .img-3 {
+    width: 100%;
+}
+  
+.about__img-3 {
+    margin-top: -80px;
+    width: 40%;
+}
+  
+.about__content-3 {
+    width: 40%;
+}
+  
+
+.ーー要素の重なり順z-indexーーーーーーーー {border:none;}
+
+.parents-4 {
+    position: relative;
+}
+
+.first-4 {
+    position: absolute;
+    background-color: #2600FF;
+    z-index: 10;
+}
+
+.second-4 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #FDFF00;
+    z-index: 0;
+}
+
+.third-4 {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: #FF0000;
+    z-index: -10;
+}
+
+.box-4 {
+    width: 200px;
+    height: 200px;
+    color: #ffffff;
+}
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+.relative-5 {
+    position: relative;
+}
+
+.relative__img-5 {
+    margin: 0 0 0 auto;
+    display: block;
+    width: 50%;
+}
+
+.absolute-5 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 50px;
+}

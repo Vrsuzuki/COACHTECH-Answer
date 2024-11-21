@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1-13 フォームタグ</title>
+</head>
+
+<body>
+  <h1 style="color:darkcyan; font-size: 35px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">ーー【１－１３ フォームタグ】ーーーーーーーーーーーーー</h1><h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【inputタグ】ーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <form action="detail.html" method="get">
+    <input type="text" />
+    <input type="tel" />
+    <input type="url" />
+    <input type="email" />
+    <input type="search" />
+    <input type="date" />
+    <input type="password" />
+    <input type="radio" />
+    <input type="radio" />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <input type="file" />
+    <input type="submit" />
+  </form>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【textareaタグ】ーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <form action="detail.html" method="get">
+    <textarea name="textarea" cols="30" rows="3"></textarea>
+  </form>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【selectタグ】ーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <form action="detail.html" method="get">
+    <select name="select">
+      太郎 次郎 三郎
+    </select>
+  </form>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【optionタグ】ーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <form action="detail.html" method="get">
+    <select name="select">
+      <option value="太郎">太郎</option>
+      <option value="次郎">次郎</option>
+      <option value="三郎">三郎</option>
+    </select>
+  </form>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【labelタグ】ーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <form action="detail.html" method="get">
+    <label> お名前：<input type="text" name="name" /> </label>
+  </form>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【labelタグにfor属性を使って部品と関連付けるサンプル】
+  </h2>
+  <form action="detail.html" method="get">
+    <label for="name">お名前：</label>
+    <input type="text" name="name" id="name" />
+  </form>
+</body>
+
+</html>

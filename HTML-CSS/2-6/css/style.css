@@ -1,0 +1,88 @@
+.ーーー【２ー６.優先順位】ーーーーーーーーーーーーー {border:none;}
+.ーーインライン指定ーーーーーーーーーーーー {border:none;}
+
+#blue{
+    color:blue;
+}
+  
+.purple{
+    color:purple;
+}
+  
+p{
+    color:black;
+}
+
+
+.ーーid指定ーーーーーーーーーーーーーーーー {border:none;}
+
+#blue{
+    color:blue;
+}
+    
+.red{
+    color:red;
+}
+    
+p{
+    color:purple;
+}
+
+
+.ーー属性セレクタ指定ーーーーーーーーーーー {border:none;}
+
+p[class]{
+    color:red;
+}
+  
+p{
+    color:blue;
+}
+
+
+.ーー属性指定ーーーーーーーーーーーーーーー {border:none;}
+
+p{
+    color:red;
+}
+  
+p:first-child{
+    color:blue;
+}
+
+*{
+    color:black;
+}
+
+
+.ーー！importantーーーーーーーーーーーーー {border:none;}
+
+p{
+    color:black!important;
+}
+    
+#blue{
+      color:blue;
+}
+    
+.purple{
+      color:purple
+}
+
+
+.ーー優先度の計算ーーーーーーーーーーーーー {border:none;}
+
+div.contain h1.contain__ttl{
+    color:red;
+}
+  
+.contain .contain__ttl{
+    color:blue;
+}
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+#firstview.contain .contain__txt p {
+    color: red;
+}

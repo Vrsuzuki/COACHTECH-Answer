@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2-5 セレクタ</title>
+  <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h1 style="color:darkcyan; font-size: 35px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">ーー【２－５ セレクタ】各CSSをコメントアウトして使用ー</h1><h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【要素セレクタ】ーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <p>色が変わる</p>
+  <div>色が変わらない</div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【idセレクタ(#ID名)】ーーーーーーーーーーーーーーーー
+  </h2>
+  <p id="sample">色が変わる</p>
+  <p>色が変わらない</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【classセレクタ(.クラス名)】ーーーーーーーーーーーーー
+  </h2>
+  <p class="sample">色が変わる</p>
+  <p>色が変わらない</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【全称セレクタ】ーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <p>色が変わる</p>
+  <p>色が変わらない</p>
+  <ul>
+    <li>リスト1</li>
+    <li>リスト1</li>
+    <li>リスト1</li>
+    <li>リスト1</li>
+    <li>リスト1</li>
+  </ul>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【子孫セレクタ】ーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div>
+    <span>色が変わる</span>
+    <p>
+      <span>色が変わる</span>
+    </p>
+    <p>色が変わらない</p>
+  </div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【子セレクタ】ーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div>
+    <span>色が変わる</span>
+    <p>
+      <span>色が変わる</span>
+    </p>
+    <p>色が変わらない</p>
+  </div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【隣接セレクタ】ーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <p>色が変わらない</p>
+  <span>色が変わる</span>
+  <span>色が変わらない</span>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【複数セレクタ】ーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <p>色が変わる</p>
+  <span>色が変わる</span>
+  <div>色が変わらない</div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【要素:first-child】ーーーーーーーーーーーーーーーー
+  </h2>
+  <p>色が変わる</p>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わらない</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【要素:first-of-type】ーーーーーーーーーーーーーーー
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わる</p>
+  <p>色が変わらない</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【要素:last-child】ーーーーーーーーーーーーーーーーー
+  </h2>
+  <div>
+    <h1>色が変わらない</h1>
+    <h2>色が変わらない</h>
+      <p>色が変わらない</p>
+      <p>色が変わる</p>
+  </div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【要素:last-of-type】ーーーーーーーーーーーーーーーー
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【要素:nth-child(n)】ーーーーーーーーーーーーーーーー
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わる</p>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【階層が同じ要素の中で3の倍数に適用:nth-child(3n)】ー
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わる</p>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【階層が同じ要素の中で3の倍数-1に適用:nth-child(3n-1)】
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【階層が同じ要素の中で3番目以降全てに適用:nth-child(n+3)】
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わる</p>
+  <p>色が変わる</p>
+  <p>色が変わる</p>
+  <p>色が変わる</p>
+  <p>色が変わる</p>
+  <p>色が変わる</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【要素:nth-of-type(n)】ーーーーーーーーーーーーーーー
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【指定要素の中で3の倍数に適用:nth-of-type(3n)】ーーー
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【指定要素の中で3の倍数-1に適用:nth-of-type(3n-1)】ー
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【指定要素の中で3番目以降全てに適用:nth-of-type(n+3)】
+  </h2>
+  <h1>色が変わらない</h1>
+  <h2>色が変わらない</h2>
+  <p>色が変わらない</p>
+  <p>色が変わらない</p>
+  <p>色が変わる</p>
+  <p>色が変わる</p>
+  <p>色が変わる</p>
+  <p>色が変わる</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【問題】ーーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div>
+    <p class="number__parent">1</p>
+    <div>
+      <p class="number__child">1-1</p>
+      <p class="number__child">1-2</p>
+      <p class="number__child">1-3</p>
+    </div>
+    <p class="number__parent">2</p>
+    <div>
+      <p class="number__child">2-1</p>
+      <p class="number__child">2-2</p>
+      <p class="number__child">2-3</p>
+    </div>
+    <p class="number__parent">3</p>
+    <div>
+      <p class="number__child">3-1</p>
+      <p class="number__child">3-2</p>
+      <p class="number__child">3-3</p>
+    </div>
+    <p class="number__parent">4</p>
+    <div>
+      <p class="number__child">4-1</p>
+      <p class="number__child">4-2</p>
+      <p class="number__child">4-3</p>
+    </div>
+    <p class="number__parent">5</p>
+    <div>
+      <p class="number__child">5-1</p>
+      <p class="number__child">5-2</p>
+      <p class="number__child">5-3</p>
+    </div>
+    <p class="number__parent">6</p>
+    <div>
+      <p class="number__child">6-1</p>
+      <p class="number__child">6-2</p>
+      <p class="number__child">6-3</p>
+    </div>
+  </div>
+</body>
+
+</html>

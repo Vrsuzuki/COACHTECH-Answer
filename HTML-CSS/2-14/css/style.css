@@ -1,0 +1,36 @@
+.ーーー【２ー１４.枠線と角丸】ーーーーーーーーーーー {border:none;}
+.ーー枠線ーーーーーーーーーーーーーーーーー {border:none;}
+
+.p-1 {
+    border: solid 2px #ff0000;
+}
+
+
+.ーー角丸ーーーーーーーーーーーーーーーーー {border:none;}
+
+.div-2 {
+    width: 200px;
+    height: 200px;
+    background: #ff0000;
+    border-radius: 30px;
+}
+
+
+.ーー正円ーーーーーーーーーーーーーーーーー {border:none;}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+  }
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+.practice {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 60px 0 60px 0px;
+}

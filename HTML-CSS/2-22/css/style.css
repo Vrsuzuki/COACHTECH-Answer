@@ -1,0 +1,137 @@
+.ーーー【２－２２.疑似要素】ーーーーーーーーーーーー {border:none;}
+.ーーbeforeーーーーーーーーーーーーーーーー {border:none;}
+
+.p-1::before {
+    content: "COACH";
+    color: #ff0000;
+}
+
+
+.ーーafterーーーーーーーーーーーーーーーー {border:none;}
+
+.p-2::after {
+    content: "TECH";
+    color: #ff0000;
+}
+
+
+.ーーbefore、afterの違いーーーーーーーーー {border:none;}
+
+.p-3::before {
+    content: "前につく";
+    color:red;
+}
+.p-3::after {
+    content: "後につく";
+    color:blue
+}
+
+
+.ーーcontentで画像出力ーーーーーーーーーー {border:none;}
+
+.ttl-4::before {
+    content: url(../img/inspiration.svg);
+}
+
+
+.ーーbackgroundで画像出力ーーーーーーーーー {border:none;}
+
+.ttl-5::before {
+    content: "";
+    background: url(../img/inspiration.svg);
+    background-size: cover;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+
+.ーーボタンにアイコンを表示ーーーーーーーー {border:none;}
+
+.download__btn {
+    position: relative;
+    background-color: #55bbbb;
+    width: 200px;
+    display: block;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 100px auto;
+}
+  
+.download__btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    background: url(../img/download__icon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translate(0, -50%);
+}
+
+
+.ーー吹き出しアイコンに使用するーーーーーー {border:none;}
+
+.speech__bubble {
+    padding: 10px 20px;
+    background: red;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+}
+.speech__bubble::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    content: "";
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid red;
+}
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+.plactice__btn {
+    position: relative;
+    background-color: #55bbbb;
+    width: 200px;
+    display: block;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+.plactice__btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    background: url(../img/mail.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+}
+.plactice__btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    background: url(../img/download__icon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%) rotate(-90deg);
+}

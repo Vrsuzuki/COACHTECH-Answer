@@ -1,0 +1,26 @@
+.ーーー【２－１５.影】ーーーーーーーーーーーーーーー {border:none;}
+.ーー要素に対する影ーーーーーーーーーーーー {border:none;}
+
+.div-1 {
+    box-shadow: 5px 5px 3px #000;
+    background: #ff0000;
+    width: 300px;
+    height: 300px;
+}
+
+
+.ーー文字に対する影ーーーーーーーーーーーー {border:none;}
+
+.p-2 {
+    text-shadow: 2px 2px 4px #000;
+}
+
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
+
+.practice {
+    width: 200px;
+    height: 200px;
+    background: red;
+    box-shadow: 10px 10px 0 black;
+}
