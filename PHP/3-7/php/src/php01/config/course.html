@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 style="color:darkcyan; font-size: 35px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">ーー【１－９ データの受け取り】ーーーーーーーーーーーーーーー</h1><h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【POST】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <form action="course.php" method="POST">
+    <label>会社名：<input type="text" name="company"></label>
+    <br />
+    <input type="submit" name="submit" value="送信する" />
+  </form>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【GET】ーーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <form action="course.php" method="GET">
+    <label>会社名：<input type="text" name="company"></label>
+    <br />
+    <input type="submit" name="submit" value="送信する" />
+  </form>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; min-height: 35px; padding: 0; margin: 20px 0; white-space: nowrap;">
+    ー【問題】ーーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <form action="result.php" method="post">
+    お名前：<input type="text" name="my_name" />
+    <br>
+    ご希望商品 :
+    <input type="radio" name="choices" value="Aセット" />Aセット
+    <input type="radio" name="choices" value="Bセット" />Bセット
+    <input type="radio" name="choices" value="Cセット" />Cセット
+    <br>
+    注文数：
+    <input type="number" name="number" value="">
+    <input type="submit" value="送信" />
+  </form>
+
+</body>
+
+</html>
